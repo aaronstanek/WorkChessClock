@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="WorkChessClock.js"></script>
+  <link rel="stylesheet" href="WorkChessClock.css">
+</head>
+<body>
+  <span id="pg1">
+    <p>
+      This webpage requires JavaScript to run correctly.
+      Please enable JavaScript.
+    </p>
+  </span>
+  <span id="pg2">
+    <h2>
+      WorkChessClock
+    </h2>
+    <p>
+      <br>How many minutes of work to earn a minute of break-time?
+    </p>
+    <input type="text" id="in1"></input>
+    <p>
+      <br>How many minutes of break-time to start with?
+    </p>
+    <input type="text" id="in2"></input>
+    <br><br>
+    <input type="button" value="START" onclick="startClock()">
+  </span>
+  <span id="pg3">
+    <h2>
+      WorkChessClock
+    </h2>
+    <br>
+    <p id="message"></p>
+    <p id="clock"></p>
+    <br>
+    <div id="menubox">
+      <input type="button" value="PAUSE" onclick="pauseClock()">
+      <p>-----</p>
+      <input type="button" value="WORK" onclick="workClock()">
+      <p>-----</p>
+      <input type="button" value="BREAK" onclick="breakClock()">
+    </div>
+    <br><br>
+    <input type="button" value="RESET" onclick="reset()">
+  </span>
+</body>
+</html>

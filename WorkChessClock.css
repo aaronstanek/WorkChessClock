@@ -1,0 +1,32 @@
+#pg1 {display: inline;}
+#pg2 {display: none;}
+#pg3 {display: none;}
+
+h2 {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+p {
+  text-align: center;
+  font-family: serif;
+}
+
+input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#menubox {
+  display: block;
+  text-align: center;
+}
+
+#menubox input {
+  display: inline;
+}
+
+#menubox p {
+  display: inline;
+}
